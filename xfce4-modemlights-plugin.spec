@@ -1,7 +1,7 @@
 Summary:	Modemlights plugin for the Xfce panel
 Name:		xfce4-modemlights-plugin
 Version:	0.1.3.99
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-modem-lights
@@ -18,6 +18,8 @@ A modemlights panel plugin for the Xfce desktop environment.
 %setup -q
 
 %build
+%define Werror_cflags %nil
+
 %configure2_5x
 %make
 
