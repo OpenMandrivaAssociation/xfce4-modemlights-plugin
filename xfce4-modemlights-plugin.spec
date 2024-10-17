@@ -4,7 +4,7 @@ Version:	0.1.3.99
 Release:	14
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-modem-lights
+URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-modem-lights
 Source0:	http://goodies.xfce.org/releases/xfce4-modemlights-plugin/%{name}-%{version}.tar.bz2
 Requires:	xfce4-panel >= 4.4.2
 BuildRequires:	pkgconfig(libxfce4panel-1.0)
